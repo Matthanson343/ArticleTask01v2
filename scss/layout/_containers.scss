@@ -1,0 +1,25 @@
+// Header + footer
+#header, #footer {
+    width: 100%;
+    margin: auto;
+}
+//Body
+body, form {
+    margin: 0;
+    padding: 0;
+}
+
+//Main
+main {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+
+//aside
+aside {
+    max-width: $max-width;
+    background-color: $row-grey;
+    margin: 0 auto 40px;
+    padding: 20px 15px;
+}

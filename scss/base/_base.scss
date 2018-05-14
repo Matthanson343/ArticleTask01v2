@@ -1,0 +1,47 @@
+body {
+    color: $color-base;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: $font-stack-secondary;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: $color-primary;
+    font-size: 4em;
+    font-family: $font-stack-primary;
+        @include base-style;
+}
+
+h2 {
+    color: $color-secondary;
+    font-size: 1.6em;
+    @include base-style
+}
+
+h3,
+h4,
+h5 {
+    color: $color-primary;
+    font-size: 1.375em;
+    @include base-style
+}
+
+p {
+    color: $color-base;
+    @include base-style {
+        padding-bottom: 10px;
+    }
+}
+
+a { 
+    color: $color-primary;
+    text-decoration: none;
+        &:hover {
+            color:$color-primary-light;
+        }
+            &:visited {
+                color:$color-primary-dark;
+            }
+}

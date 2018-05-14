@@ -1,0 +1,30 @@
+//Website Colors
+$color-base: #151515;
+$white: #fff;
+$row-grey: #f3f3f3;
+
+$color-primary: #E54B4B;
+$color-primary-light: lighten($color-primary, 25%);
+$color-primary-dark: darken($color-primary, 25%);
+
+$color-secondary: #17528E;
+$color-secondary-light: lighten($color-secondary, 25%);
+$color-secondary-dark: darken($color-secondary, 25%);
+
+// Fonts
+$font-stack-primary: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-stack-secondary: Trebuchet MS, sans-serif;
+
+// Layout
+$max-width: 1000px;
+$article-img: 30%;
+
+// Styles
+$nav-boder: 1px solid $white;
+
+//Breakpoints
+
+$break-xs: 575px;
+$break-s: 576px;
+$break-m: 768px;
+$break-l: 992px;

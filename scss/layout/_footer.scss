@@ -1,0 +1,12 @@
+footer {
+    background-color: $color-primary-dark;
+    padding: 20px 15px;
+}
+.footer-credits {
+    text-align: center;
+    color: $white;
+    padding: 0px;
+        a {
+            color: $white;
+        }
+}

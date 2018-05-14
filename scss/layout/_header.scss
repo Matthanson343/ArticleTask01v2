@@ -1,0 +1,16 @@
+
+#header {
+    background-color: $color-primary-dark;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+.company {
+    max-width: $max-width;
+    margin: auto;
+    color: $white;
+    padding-bottom: 20px;
+        &-logo{
+            display:block;
+            margin: auto;
+        }
+}

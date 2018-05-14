@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+
+<head>
+	<title>MNA Dev Task 01</title>
+	<link rel="stylesheet" href="../css/style.css">	
+	<meta charset="utf-8"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+	
+</head>
+
+<body onload="recentArticles()">
+	<header>
+		<!-- Nav Bar -->
+		<nav>
+			<div id="header">
+				<div class="company">			
+					<img src="../img/dailynewsupdates-logo.png" class= "company-logo" alt="Company logo">
+				</div>
+					<div id='primarynav'>
+						<ul class="navigation-bar">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Sports</a></li>
+							<li><a href="#">Entertainment</a></li>
+							<li><a href="#">Services</a></li>
+						</ul>
+					</div>
+				</div>
+		</nav>
+	</header>
+
+<main>
+	<div id="maincontent">
+		<!-- Article -->	
+		<article id='article'>
+			<header>
+				<h1 class="article-title">Bitters art party drinking vinegar</h1>
+				<h2 class="article-subtitle">Tote bag jean shorts cardigan mumblecore blog</h2>
+				<p class="article-author">Published by Matt Hanson, 10 April 2018</p>
+			</header>
+
+			<p>Lorem ipsum dolor amet knfolk +1 photo booth migas. YOLO post-ironic plaid cloud bread put a bird on it thundercats artisan blue bottle copper mug chicharrones cray vaporware polaroid cardigan shoreditch. Chia +1 copper mug kinfolk hot chicken shabby chic. Occupy fanny pack cornhole pop-up 8-bit. Etsy disrupt activated charcoal hashtag glossier meggings, gastropub kitsch yr try-hard.</p>
+				<p>	Messenger bag cred vice la croix. Irony keytar drinking vinegar stumptown flannel fixie chicharrones celiac skateboard direct trade. Deep v disrupt hashtag, migas biodiesel chia farm-to-table polaroid pickled unicorn iPhone. Drinking vinegar godard knausgaard, gluten-free kickstarter semiotics bushwick. Photo booth kale chips echo park direct trade synth meggings cardigan la croix umami.</p>
+				<p>	Schlitz hoodie shabby chic mixtape bicycle rights. Offal synth pour-over farm-to-table, meh raclette prism pork belly tote bag. Shaman dreamcatcher irony brooklyn, fingerstache semiotics microdosing. Tousled edison bulb 8-bit pinterest biodiesel pop-up fingerstache bushwick forage mixtape direct trade tumblr hashtag.</p>			
+				
+				<figure class="featured-img">
+					<img src="http://placeimg.com/400/400/arch" alt="Photograph of architecture" class="article-img">
+						<figcaption>
+							<p class="article-img-caption">A photograph of architecture</p>
+						</figcaption>
+				</figure>	
+
+				<p>Schlitz hoodie shabby chic mixtape bicycle rights. Offal synth pour-over farm-to-table, meh raclette prism pork belly tote bag. Shaman dreamcatcher irony brooklyn, fingerstache semiotics microdosing. Tousled edison bulb 8-bit pinterest biodiesel pop-up fingerstache bushwick forage mixtape direct trade tumblr hashtag.</p>
+				<p>Pitchfork mlkshk disrupt copper mug cred poke mixtape jianbing blog thundercats irony pok pok salvia typewriter. Chia brunch butcher, vexillologist gentrify jean shorts craft beer. Neutra cronut tote bag glossier yr locavore mumblecore banh mi meditation. Sartorial cray lyft schlitz, fam brooklyn man braid.</p>			
+				
+				<blockquote class="quote">
+					<p class="quote-text">"Photo booth kale chips echo park direct trade synth meggings cardigan la croix umami."</p>
+						<cite class="quote-author">Tote Bag Shaman, Stumptown 90's</cite>
+				</blockquote>
+
+				<p>Lorem ipsum dolor amet kinfolk +1 photo booth migas. YOLO post-ironic plaid cloud bread put a bird on it thundercats artisan blue bottle copper mug chicharrones cray vaporware polaroid cardigan shoreditch. Chia +1 copper mug kinfolk hot chicken shabby chic. Occupy fanny pack cornhole pop-up 8-bit. Etsy disrupt activated charcoal hashtag glossier meggings, gastropub kitsch yr try-hard.</p>
+				<p>Messenger bag cred vice la croix. Irony keytar drinking vinegar stumptown flannel fixie chicharrones celiac skateboard direct trade. Deep v disrupt hashtag, migas biodiesel chia farm-to-table polaroid pickled unicorn iPhone. Drinking vinegar godard knausgaard, gluten-free kickstarter semiotics bushwick. Photo booth kale chips echo park direct trade synth meggings cardigan la croix umami.</p>
+				<p>Schlitz hoodie shabby chic mixtape bicycle rights. Offal synth pour-over farm-to-table, meh raclette prism pork belly tote bag. Shaman dreamcatcher irony brooklyn, fingerstache semiotics microdosing. Tousled edison bulb 8-bit pinterest biodiesel pop-up fingerstache bushwick forage mixtape direct trade tumblr hashtag.</p>
+				<p>Bitters art party drinking vinegar portland put a bird on it forage. Pour-over fanny pack vegan, tote bag jean shorts cardigan mumblecore blog. Venmo yuccie flexitarian, mustache mixtape trust fund fashion axe dreamcatcher heirloom blog yr kinfolk pok pok vinyl typewriter. Tattooed celiac kale chips aesthetic knausgaard vegan, brooklyn flexitarian synth YOLO copper mug irony chia kitsch. Locavore paleo listicle, VHS readymade venmo fixie migas pork belly biodiesel live-edge. Stumptown 90's umami tilde tousled bicycle rights ramps kinfolk prism heirloom artisan.</p>			
+			
+		</article>
+	</div>
+</main>
+	
+<!-- Related Article -->	
+<aside>
+	<div id="related-article">
+
+		<div id="recent-articles">Loading...</div>
+		<script id="load-articles" type="x-tmpl-mustache">
+			<ul>
+				<li><h3>{{ title }}</h3></li>
+				<li><p>{{ body }}</p></li>
+			</ul>
+		</script>
+		<button class="controls" id="previous">Prev</button>
+		<button class="controls" id="next">Next</button>
+	</div>
+</aside>
+	
+<script src="../js/main.js"></script>
+<script src="../js/mustache.js"></script>
+</body>
+
+<!-- Footer -->		
+<footer id="footer">
+	<p class="footer-credits">&copy; 2018 by <a href="#">Matt Hanson</a> | All rights reserved</p>
+</footer>
+
+</html>

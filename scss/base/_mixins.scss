@@ -1,0 +1,8 @@
+//font-style
+
+@mixin base-style {
+    line-height: 1.2;
+    margin: 0px;
+    padding: 0px;
+    @content;
+}

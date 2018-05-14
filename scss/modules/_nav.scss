@@ -1,0 +1,26 @@
+
+#primarynav {
+    background-color: $color-primary;
+    padding: 10px;
+        a {
+            color: $white;
+            padding: 5px 10px;
+              &:hover {
+                color: $color-primary;
+                background-color: $white;
+                font-weight: 600;
+            }
+                &:active {
+                   border: $nav-boder;
+                }
+        }
+            ul {
+                list-style-type: none;
+                margin: 0px 0px 0px -14px;
+                text-align: center;
+            }
+                li {
+                    display: inline-block;
+                    padding: 0px 5px;
+                }
+}

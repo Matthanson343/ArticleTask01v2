@@ -1,0 +1,16 @@
+.featured-img {
+    max-width: $article-img;
+    float: left;
+    padding: 0px;
+    margin: 20px;
+        img {
+            width: 100%;
+        }
+}
+.article-img-caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+    padding: 5px;
+    border: 1px solid $color-base;
+}

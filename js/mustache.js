@@ -601,11 +601,11 @@ let info = [
     }
   ];
 let currentSlide = 0;
- 
+
 function recentArticles() {
   let articles = document.getElementById('load-articles').innerHTML;
   let render = Mustache.render(articles, info[currentSlide]);
-  document.getElementById('recent-articles').innerHTML = render;   
+  document.getElementById('recent-articles').innerHTML = render; 
 }
   document.querySelector('#previous').addEventListener('click', (e) => {
    currentSlide -=1;
